@@ -5,9 +5,56 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
 }
 
 .pink-box {
+    min-height: 100vh;
+    height: fit-content;
+    width: 100vw;
     background-color: pink;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container1{
+    min-height: 200px;
+    height: fit-content;
+    width: 100vw;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2{
+    min-height: 400px;
+    height: fit-content;
+    width: 100vw;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-box {
+    background-color: red;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    background-color: blue;
+    height: 400px;
+    width: 465px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
